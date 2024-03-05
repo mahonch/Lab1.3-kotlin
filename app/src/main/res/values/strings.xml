@@ -33,4 +33,8 @@
     <string name="swift">Swift</string>
     <string name="ios">Ios</string>
     <string name="covers">Обложки книг</string>
+    <string name="grid_icon" />
+    <string name="button_scrolling">Scrolling</string>
+    <string name="button_grid">Grid</string>
+    <string name="button_list">List</string>
 </resources>
