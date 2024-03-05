@@ -18,6 +18,8 @@ import androidx.compose.ui.unit.dp
 import com.raywenderlich.android.lab1.R
 import com.raywenderlich.android.lab1.router.FundamentalsRouter
 import com.raywenderlich.android.lab1.router.Screen
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 
 @Composable
 @Preview
@@ -27,6 +29,7 @@ fun NavigationScreen() {
         modifier = Modifier.fillMaxSize()
     ) {
         Column(
+            modifier = Modifier.verticalScroll(rememberScrollState()),
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
